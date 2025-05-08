@@ -5,10 +5,10 @@ El objetivo del TFG es desarrollar un modelo de machine learning (ML) para evalu
 
 En el ficheros del repositorio se va a desarrollar todo el código Python necesario para realizar las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
 
-    - Análisis exploratorio de datos (EDA)
-    - Ingeriería de características y preparación del dataset para su procesamiento.
-    - Selección e implementación del modelo de ML para credit score.
-    - Implementación de la explicabilidad para facilitar su interpretabilidad.
+    * Análisis exploratorio de datos (EDA)
+    * Ingeriería de características y preparación del dataset para su procesamiento.
+    * Selección e implementación del modelo de ML para credit score.
+    * Implementación de la explicabilidad para facilitar su interpretabilidad.
 
 El conjunto de datos seleccionado para realizar el proyecto es Home Credit Default Risk, que se puede encontrar en el siguiente enlace: 
 https://www.kaggle.com/c/home-credit-default-risk/overview. 
