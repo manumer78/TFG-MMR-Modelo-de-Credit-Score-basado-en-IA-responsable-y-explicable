@@ -3,7 +3,7 @@ Repositorio para el código utilizado en el TFG del Grado en Ciencia de Datos Ap
 
 El objetivo del TFG es desarrollar un modelo de machine learning (ML) para evaluar la solvencia de los solicitantes de crédito, también conocidos como modelos de credit score, siguiendo las premisas de la IA Responsable, poniendo especial énfasis en la explicabilidad del modelo. Esto último enlaza el proyecto con el concepto de IA Explicable (XAI por sus siglas en inglés).
 
-En el ficheros del repositorio se va a desarrollar todo el código Python necesario para realizar las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
+En el fichero del repositorio se va a desarrollar todo el código Python necesario para realizar las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
 
     - Análisis exploratorio de datos (EDA)
     - Ingeriería de características y preparación del dataset para su procesamiento.
