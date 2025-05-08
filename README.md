@@ -5,10 +5,10 @@ El objetivo del TFG es desarrollar un modelo de machine learning (ML) para evalu
 
 En el ficheros del repositorio se va a desarrollar todo el código Python necesario para realizar las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
 
-    * Análisis exploratorio de datos (EDA)
-    * Ingeriería de características y preparación del dataset para su procesamiento.
-    * Selección e implementación del modelo de ML para credit score.
-    * Implementación de la explicabilidad para facilitar su interpretabilidad.
+    - Análisis exploratorio de datos (EDA)
+    - Ingeriería de características y preparación del dataset para su procesamiento.
+    - Selección e implementación del modelo de ML para credit score.
+    - Implementación de la explicabilidad para facilitar su interpretabilidad.
 
 El conjunto de datos seleccionado para realizar el proyecto es Home Credit Default Risk, que se puede encontrar en el siguiente enlace: 
 https://www.kaggle.com/c/home-credit-default-risk/overview. 
@@ -26,9 +26,7 @@ El conjunto de datos está formado por los siguientes ficheros:
 Para el desarrollo del proyecto, se generará a partir de los datos de los ficheros anteriores un conjunto de datos con todas aquellas variables predictoras que se puedan considerar relevantes. En relación a los ficheros se ha de tener en cuenta lo siguiente:
 
     - La base del conjunto de datos que se usará en el modelo son los ficheros application_train y application_test, ya que contienen variables relacionadas con la solicitud y con el cliente que la realiza.
-
     - Los ficheros bureau y bureau_balance son ficheros con información de otros créditos del cliente en otras entidades, que permitirán inferir información relevante de su comportamiento crediticio que podrá ser integrada en el conjunto de datos final.
-
     - Los ficheros previous_application, POS_CASH_balance, installments_payments y credit_card_balance son ficheros con información de otros créditos del cliente en la entidad, que permitirán inferir información relevante de su comportamiento crediticio que podrá ser integrada en el conjunto de datos final.
 
 Antes de continuar, se han de tener en cuenta que en los ficheros application_train y application_test se está registrando una solicitud de crédito por cliente. No existen más de dos solicitudes del mismo cliente, y si las hay no existe forma de relacionarlas. Este punto es relevante ya que toda la información recopilada en los ficheros de bureau y de solicitudes previas en la misma entidad se relacionan por el identificador del prestamo, que es a su vez el indicador del cliente.
