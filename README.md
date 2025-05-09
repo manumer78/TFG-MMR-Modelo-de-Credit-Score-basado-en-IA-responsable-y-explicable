@@ -51,5 +51,5 @@ Para el desarrollo del proyecto, se generará a partir de los datos de los fiche
   información relevante de su comportamiento crediticio que podrá ser integrada en el conjunto de 
   datos final.
 
-Antes de continuar, se han de tener en cuenta que en los ficheros application_train y application_test se está registrando una solicitud de crédito por cliente. No existen más de dos solicitudes del mismo cliente, y si las hay no existe forma de relacionarlas. Este punto es relevante ya que toda la información recopilada en los ficheros de bureau y de solicitudes previas en la misma entidad se relacionan por el identificador del préstamo, que es a su vez el indicador del cliente.
+Se ha de tener en cuenta que en los ficheros application_train y application_test se está registrando una solicitud de crédito por cliente. No existen más de dos solicitudes del mismo cliente, y si las hay no existe forma de relacionarlas. Este punto es relevante ya que toda la información recopilada en los ficheros de bureau y de solicitudes previas en la misma entidad se relacionan por el identificador del préstamo, que es a su vez el indicador del cliente.
 
