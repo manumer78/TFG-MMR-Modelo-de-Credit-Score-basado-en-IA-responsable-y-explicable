@@ -1,12 +1,13 @@
 # TFM-MMR-Modelo-de-Credit-Score-basado-en-IA-responsable-y-explicable
-Repositorio para el código utilizado en el TFG del Grado en Ciencia de Datos Aplicada de la UOC.
 
-El objetivo del TFG es desarrollar un modelo de machine learning (ML) para evaluar la solvencia de los solicitantes de crédito, también conocidos como modelos de credit score, siguiendo las premisas de la IA Responsable, poniendo especial énfasis en la explicabilidad del modelo. Esto último enlaza el proyecto con el concepto de IA Explicable (XAI por sus siglas en inglés).
+La concesión de crédito por parte de las entidades financieras es la base de su actividad, la cual no está exenta de riesgos. Por este motivo, a la hora de conceder un préstamo, o abrir una línea de crédito, se realiza un estudio exhaustivo de la viabilidad financiera del cliente. Este proceso, hoy en día, es desarrollado por modelos de inteligencia artificial (IA), que van desde simples procesos basados en reglas hasta sofisticados modelos de machine learning (ML).
 
-En el fichero del repositorio se va a desarrollar todo el código Python necesario para realizar las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
+Los modelos de ML son los más eficientes, pero también son los más complejos, lo que dificulta la comprensión de su funcionamiento y de la lógica aplicada en la decisión tomada. Además, estos modelos han de procesar datos de los solicitantes, que pueden llegar a ser considerados sensibles. Por este motivo, el objetivo de este trabajo final de grado (TFG) es el de desarrollar un modelo de evaluación de concesión de crédito bajo los principios de la IA responsable, poniendo especial atención en la explicabilidad del modelo, lo que enlaza con el concepto de IA explicable (XAI por sus siglas en inglés: eXplainable Artificial Intelligence).
+
+En el fichero TFG_MMR_Credit_Score_ML_explicable.ipynb se implementa todo el código Python necesario para la realización de las diferentes fases técnicas del proyecto. Estas incluyen las siguientes tareas.
 
     - Análisis exploratorio de datos (EDA)
-    - Ingeriería de características y preparación del dataset para su procesamiento.
+    - Ingeniería de características y preparación del dataset para su procesamiento.
     - Selección e implementación del modelo de ML para credit score.
     - Implementación de la explicabilidad para facilitar su interpretabilidad.
 
@@ -48,4 +49,5 @@ Para el desarrollo del proyecto, se generará a partir de los datos de los fiche
     información relevante de su comportamiento crediticio que podrá ser integrada en el conjunto de 
     datos final.
 
-Antes de continuar, se han de tener en cuenta que en los ficheros application_train y application_test se está registrando una solicitud de crédito por cliente. No existen más de dos solicitudes del mismo cliente, y si las hay no existe forma de relacionarlas. Este punto es relevante ya que toda la información recopilada en los ficheros de bureau y de solicitudes previas en la misma entidad se relacionan por el identificador del prestamo, que es a su vez el indicador del cliente.
+Antes de continuar, se han de tener en cuenta que en los ficheros application_train y application_test se está registrando una solicitud de crédito por cliente. No existen más de dos solicitudes del mismo cliente, y si las hay no existe forma de relacionarlas. Este punto es relevante ya que toda la información recopilada en los ficheros de bureau y de solicitudes previas en la misma entidad se relacionan por el identificador del préstamo, que es a su vez el indicador del cliente.
+
