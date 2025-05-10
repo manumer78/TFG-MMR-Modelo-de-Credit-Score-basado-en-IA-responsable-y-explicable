@@ -1,4 +1,4 @@
-# TFM-MMR-Modelo-de-Credit-Score-basado-en-IA-responsable-y-explicable
+# TFG-MMR-Modelo-de-Credit-Score-basado-en-IA-responsable-y-explicable
 
 La concesión de crédito por parte de las entidades financieras es la base de su actividad, la cual no está exenta de riesgos. Por este motivo, a la hora de conceder un préstamo, o abrir una línea de crédito, se realiza un estudio exhaustivo de la viabilidad financiera del cliente. Este proceso, hoy en día, es desarrollado por modelos de inteligencia artificial (IA), que van desde simples procesos basados en reglas hasta sofisticados modelos de machine learning (ML).
 
